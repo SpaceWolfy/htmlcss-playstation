@@ -1,6 +1,6 @@
 /* ------ Utilities ------ */
 .my-btn {
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px 15px;
   font-weight: 700;
   color: white;
@@ -12,6 +12,7 @@
   border-radius: 25px;
   padding: 3px;
   display: inline-block;
+  border: 1px solid transparent;
 }
 
 .altezza-fasulla {
@@ -41,10 +42,6 @@ nav {
 /*  */
 
 /*------ Sezione 1 ------*/
-.my-section {
-  height: calc(800px - 80px);
-}
-
 .my-jumbo-bg-1 {
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,7 +55,6 @@ nav {
 .my-jumbo-text {
   height: 100%;
   width: 100%;
-  margin-top: 35px;
   color: white;
 }
 
@@ -74,6 +70,23 @@ nav {
   padding-bottom: 20px;
   width: 60%;
 }
+
+/* ------ Sottosezione 1 ------ */
+.my-subsection-1 {
+  margin-top: 40px;
+}
+
+.my-sub-img-container {
+  width: 100%;
+}
+
+.my-sub-img-bg > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/*  */
+
 /*  */
 
 /* Sezione 3 */
@@ -92,6 +105,7 @@ nav {
 .my-border-hover:hover {
   border: 1px solid;
 }
+
 /*  */
 
 /* COLORI */
@@ -103,5 +117,9 @@ nav {
 /* COLORI - HOVER */
 .my-border-orng:hover {
   border-color: #cd3d0f;
+}
+
+.my-border-blue:hover {
+  border: 2px solid #0072ce;
 }
 /*  */
