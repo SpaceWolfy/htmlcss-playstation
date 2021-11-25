@@ -14,6 +14,10 @@
   display: inline-block;
 }
 
+.altezza-fasulla {
+  height: 800px;
+}
+
 /*------ Header ------*/
 header {
   width: 100%;
@@ -45,17 +49,22 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-image: url("../img/jumbo-bg.png");
   background-color: rgb(36, 35, 35);
   width: 100%;
 }
 
 .my-jumbo-text {
-  padding-top: 320px;
+  height: 100%;
+  width: 100%;
+  margin-top: 35px;
   color: white;
 }
 
+.my-margin {
+  margin-top: 300px;
+}
 .my-jumbo-text p {
   padding: 20px 0;
   font-size: 18px;
@@ -63,9 +72,20 @@ nav {
 
 .my-jumbo-logo-container > img {
   padding-bottom: 20px;
-  width: 80%;
+  width: 60%;
 }
+/*  */
 
+/* Sezione 3 */
+.my-jumbo-bg-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-color: rgb(36, 35, 35);
+  width: 100%;
+}
 /*  */
 
 /* HOVER */
