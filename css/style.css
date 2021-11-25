@@ -191,6 +191,10 @@ nav {
 /* ------------------------ */
 
 /* ------ Sezione 5 ------ */
+.my-section-5-header {
+  margin: 80px 0;
+}
+
 .my-s5-text > p {
   margin-top: 30px;
   font-size: 20px;
@@ -204,6 +208,46 @@ nav {
 }
 /* ------------------------ */
 
+/* ------ Sezione 6 ------ */
+.my-section-6-bg-1 {
+  background-color: #bebcbb;
+}
+
+.my-section-6-bg-2 {
+  background-color: #161c3b;
+}
+
+.my-plus-logo {
+  width: 60%;
+}
+
+.my-banner-1-info {
+  font-weight: 600;
+}
+
+.my-banner-1-info p {
+  margin: 30px 0;
+}
+
+.my-banner-1-info input {
+  color: #3c6fe5;
+}
+
+.my-banner-1-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.my-banner-2 {
+  color: white;
+}
+
+.my-banner-2 input {
+  color: black;
+}
+
+/* ------------------------ */
+
 /*------ COLORI ------*/
 .my-bg-orng {
   background-color: #cd3d0f;
@@ -215,6 +259,14 @@ nav {
 
 .my-bg-black {
   background-color: #1f1f1f;
+}
+
+.my-bg-brown {
+  background-color: #d9dadc;
+}
+
+.my-bg-white {
+  background-color: #fff;
 }
 /* ------------------------ */
 
@@ -250,6 +302,14 @@ nav {
 .my-border-blue:hover {
   border: 2px solid #0072ce;
 }
+
+.my-border-brown:hover {
+  border: 1px solid #d9dadc;
+}
+
+.my-border-white:hover {
+  border: 1px solid #fff;
+}
 /* ------------ */
 /* ------------------------ */
 
@@ -261,6 +321,10 @@ nav {
 
   .my-display-ib {
     display: none;
+  }
+
+  .my-banner-1-info {
+    margin: 50px 0;
   }
 }
 
