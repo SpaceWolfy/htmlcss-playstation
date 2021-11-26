@@ -7,14 +7,6 @@
   border: none;
 }
 
-.my-display-ib {
-  display: inline-block;
-}
-
-.my-display-none {
-  display: none;
-}
-
 .my-border-hover {
   border-radius: 25px;
   padding: 2px;
@@ -29,7 +21,6 @@
 .spacer {
   margin-top: 30px;
 }
-
 /* ------------------------ */
 
 /*------ Header ------*/
@@ -129,10 +120,6 @@ nav {
   height: 100%;
 }
 
-.my-vertical-align {
-  display: flex;
-  align-items: center;
-}
 /* ------------------------ */
 
 /*------ Sezione 3 ------*/
@@ -246,6 +233,57 @@ nav {
   color: black;
 }
 
+.my-s6-middle img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/* ------------------------ */
+
+/* ------ Social ------ */
+.my-footer-social {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.my-social-info img {
+  width: 100%;
+  margin-bottom: 100px;
+}
+/* ------------------------ */
+
+/* ------ Footer ------ */
+footer {
+  background-color: #00439c;
+}
+
+.my-spacer-2 {
+  padding: 100px 0;
+}
+
+.my-ending-footer {
+  color: white;
+}
+
+.fa-globe {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.my-ps-logo-f-png {
+  width: 100px;
+  margin-bottom: 50px;
+}
+
+.my-sie-img {
+  width: 120px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.my-ending-footer ul {
+  list-style: none;
+}
 /* ------------------------ */
 
 /*------ COLORI ------*/
@@ -296,7 +334,7 @@ nav {
 }
 
 .my-border-very-blue:hover {
-  border: 1px solid #2d64e6;
+  border-color: #2d64e6;
 }
 
 .my-border-blue:hover {
@@ -304,28 +342,15 @@ nav {
 }
 
 .my-border-brown:hover {
-  border: 1px solid #d9dadc;
+  border-color: #d9dadc;
 }
 
 .my-border-white:hover {
-  border: 1px solid #fff;
+  border-color: #fff;
 }
 /* ------------ */
 /* ------------------------ */
 
 /* ------ MediaQ ------ */
-@media screen and (max-width: 767px) {
-  .my-display-none {
-    display: inline-block;
-  }
-
-  .my-display-ib {
-    display: none;
-  }
-
-  .my-banner-1-info {
-    margin: 50px 0;
-  }
-}
 
 /* ------------------------ */
