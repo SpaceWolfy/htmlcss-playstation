@@ -14,6 +14,12 @@
   border: 1px solid transparent;
 }
 
+.my-border-hover-2 {
+  border-radius: 25px;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
 .altezza-fasulla {
   height: 800px;
 }
@@ -97,10 +103,18 @@ header {
 
 .my-sub-img-container {
   width: 100%;
+  position: relative;
 }
 
 [class*="my-sub-bg"] .my-border-hover {
   border: 2px solid transparent;
+}
+
+.my-sub-img-bg:hover {
+  position: absolute;
+  top: 0;
+  animation-name: spostamento;
+  animation-duration: 3s;
 }
 
 .my-sub-img-bg > img {
@@ -362,7 +376,7 @@ footer {
 }
 
 .my-border-brown:hover {
-  border-color: #d9dadc;
+  border-color: rgba(217, 218, 220, 0.4);
 }
 
 .my-border-white:hover {
@@ -374,3 +388,19 @@ footer {
 }
 /* ------------ */
 /* ------------------------ */
+
+/* ------ Keyframes ------ */
+@keyframes spostamento {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -20px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+/* ------------------------ */ ;
