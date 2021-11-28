@@ -44,7 +44,7 @@ header {
   margin: 10px;
 }
 
-/* ------ Navbar ------ */
+/* ------ Custom Navbar ------ */
 .navbar-light .navbar-nav .nav-link {
   color: black;
   font-weight: 700;
@@ -69,6 +69,28 @@ header {
   margin-left: 30px;
   width: 25px;
 }
+
+img.dropdown-item {
+  width: 100px;
+}
+
+.dropdown-menu li:nth-child(1),
+.dropdown-menu li:nth-child(2),
+.dropdown-menu li:nth-child(4),
+.dropdown-menu li:nth-child(5),
+.dropdown-menu li:nth-child(6) {
+  display: inline-block;
+}
+
+.dropdown-menu.show {
+  top: 70px;
+  border: none;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
 /* ------------ */
 /* ------------------------ */
 
@@ -419,6 +441,20 @@ a:hover {
   border-color: #1f1f1f;
 }
 /* ------------ */
+/* ------------------------ */
+
+/* ------ Active ------ */
+.dropdown:hover .my-chevron-down-hover {
+  margin-left: 5px;
+  width: 10px;
+  transform: rotate(180deg);
+}
+
+.nav-item:hover .my-chevron-down-hover {
+  margin-left: 5px;
+  width: 10px;
+  transform: rotate(180deg);
+}
 /* ------------------------ */
 
 /* ------ Keyframes ------ */
